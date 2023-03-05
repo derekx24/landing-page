@@ -149,3 +149,17 @@ body {
     border-radius: 10px;
     margin-left: auto;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
