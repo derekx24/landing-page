@@ -16,6 +16,7 @@ body {
     flex: 1 1 0;
     padding-left: 30px;
     margin-right: auto;
+    width: 80px;
 }
 
 .links {
@@ -29,4 +30,44 @@ body {
     align-items: end;
     padding: 15px;
     text-decoration: none;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.section1-text {
+    flex-direction: column;
+    flex-basis: 600px;
+    color: #E5E7EB;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 100px;
+}
+
+.section1-text p {
+    font-size: 24px;
+}
+
+.section1-text button {
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    width: 125px;
+    background: #3882f6;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.section1-img {
+    flex-basis: 450px;
+    margin: 40px;
+
 }
