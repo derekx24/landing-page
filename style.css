@@ -102,3 +102,21 @@ body {
     border-radius: 8px;
     margin: 0px 20px 0px 20px;
 }
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 250px;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote {
+    align-self: start;
+}
+
+.quoted {
+    align-self: end;
+    font-weight: bold;
+}
